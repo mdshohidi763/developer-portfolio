@@ -19,7 +19,9 @@
          background: #FD6E0A;
 
     }
-
+.contuct-me{
+    background:indianred;
+}
 
 /* header and navigation styles */
 header{
@@ -31,7 +33,7 @@ header{
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+ padding:50px 200px;
 }
 nav ul{
     display: flex;
@@ -138,6 +140,9 @@ text-align: center;
 
 }
 /* resume style */
+.resume .section-title{
+    margin-top: 60px;
+}
 .resume-content{
    
     display: flex;
