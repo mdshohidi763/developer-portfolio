@@ -87,8 +87,8 @@ main{
 text-align: center;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
-    margin-top: 10px;
+    margin-bottom: 50px;
+    
 }
 .section-description{
     color:#757575;
@@ -103,7 +103,7 @@ text-align: center;
     justify-content: space-around;
 
 }
-.about.info-title{
+.about .sub-title{
     font-size: 20px;
     color: #474747
 }
@@ -136,4 +136,59 @@ text-align: center;
     columns: #757575;
     
 
+}
+/* resume style */
+.resume-content{
+   
+    display: flex;
+    gap: 100px;
+    margin-left: 120px;
+}
+.resume-item{
+    margin-top:30px;
+    margin-bottom:30px;
+
+}
+.resume .title{
+    color: #447744;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+}
+   
+.resume .sub-title{
+    color: #757575;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+   
+.resume .description{
+color: #757575
+}
+   
+.resume-btn{
+    margin-top: 50px;
+    text-align: center;
+}
+/* Contuct styles */
+.contuct{
+    display: flex;
+    gap:100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contuct .section-title{
+   text-align: left;    
+
+}
+.contuct input[type="text"],input[type="email"], textarea{
+    margin-bottom: 20px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+.contuct a{
+    text-decoration: none;
 }
